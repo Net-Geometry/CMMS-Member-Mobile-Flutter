@@ -60,7 +60,7 @@ class _LoginPageState extends State<LoginPage> {
 
       final userType = result.userType;
       if (userType == 'member') {
-        Navigator.pushReplacementNamed(context, '/manager');
+        Navigator.pushReplacementNamed(context, '/member-home');
       } else {
         setState(() => _error = "Unauthorized user.");
       }

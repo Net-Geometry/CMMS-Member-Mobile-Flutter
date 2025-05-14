@@ -28,11 +28,6 @@ class _MainLayoutState extends State<MainLayout> {
         children: [
           TopBar(
             // profileImageUrl: null,
-            onNotificationTap: () {
-              ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text("Notification tapped")),
-              );
-            },
           ),
           Expanded(child: widget.pages[_selectedIndex]),
         ],

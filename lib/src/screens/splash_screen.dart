@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               Text(
-                "NADI",
+                "CMMS",
                 style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
