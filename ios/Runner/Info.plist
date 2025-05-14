@@ -47,5 +47,14 @@
 	<true/>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>This app uses the local network for development tools like Flutter DevTools.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires camera access.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app uses your location for relevant services.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to your photo library.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app may record audio if needed.</string>
+
 </dict>
 </plist>

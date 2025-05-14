@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'auth/login_page.dart';
 import 'dart:async';
+import 'package:cmms_member_mobile_flutter/src/services/permission_service.dart';
+
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -13,6 +15,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    PermissionService.requestAllPermissions();
     Timer(const Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
         PageRouteBuilder(
